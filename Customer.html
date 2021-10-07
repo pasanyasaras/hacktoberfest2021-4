@@ -1,0 +1,61 @@
+<html><head><title></title>
+<style>
+table {
+        border-collapse: collapse;
+        margin:100px auto;
+    }
+    
+    td {
+        margin: 0px;
+        padding: 5px;
+        text-align: left;
+        border-top:0px solid #080808;
+	border-bottom:0px solid #080808;
+	border-left:1px solid #080808;
+	border-right:1px solid #080808;
+    }
+
+	th {
+        margin: 0px;
+        padding: 5px;
+        text-align: left;
+        border:1px solid #080808;
+    }
+    
+    .border {
+        border-bottom: 1px solid #080808;
+    }
+
+    .noborders {
+        border:0px;
+    }
+</style>
+
+</head>
+<body>
+<table boder="1">
+<tr>
+    <th>type of transaction</th>
+    <th>from</th>
+    <th>to</th>
+	<th>amount</th>
+  </tr>
+  <tr>
+	<td rowspan="3" class="border">INT Transfer</td>
+
+    <td >Bank1 Name</td>
+    <td >Bank2 Name</td>
+    <td rowspan="3" class="border">66,0000</td>
+  </tr>
+  <tr>
+    <td >Customer 1 name</td>
+    <td >Customer 2 name</td>
+  </tr>
+
+<tr>
+    <td class="border">ac number 1</td>
+    <td class="border">ac number2</td>
+  </tr>
+</table>
+</body>
+<html>
